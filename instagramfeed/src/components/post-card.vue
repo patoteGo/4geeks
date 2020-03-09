@@ -2,7 +2,7 @@
     .card
         .head
             .title {{ title }}
-            .number 10/14
+            .number {{ num }}
         img( :src="url") 
         .desc {{ desc }}
 </template>
@@ -13,7 +13,8 @@ export default {
     stringProp: String,
     title: String,
     url: String,
-    desc: String
+    desc: String,
+    num: String
   }
 }
 </script>

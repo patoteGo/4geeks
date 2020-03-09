@@ -2,9 +2,10 @@
   #app
     h2 Breathe Code Photo Feed
     .container
-      post-card(title="This is my title", url="https://picsum.photos/600/400", desc="Eiusmod enim sunt velit tempor ullamco dolore fugiat pariatur magna dolor excepteur do est.")
-      post-card(title="This is my title2", url="https://picsum.photos/600/390", desc="Eiusmod enim sunt velit tempor ullamco dolore fugiat pariatur magna dolor excepteur do est.")
-      post-card(title="This is my title3", url="https://picsum.photos/600/400", desc="Eiusmod enim sunt velit tempor ullamco dolore fugiat pariatur magna dolor excepteur do est.")
+      post-card(title="This is my title", url="https://picsum.photos/600/400", desc="Eiusmod enim sunt velit tempor ullamco dolore fugiat pariatur magna dolor excepteur do est.",num="10/14")
+      post-card(title="This is my title2", url="https://picsum.photos/600/390", desc="Eiusmod enim sunt velit tempor ullamco dolore fugiat pariatur magna dolor excepteur do est.",num="11/14")
+      post-card(title="This is my title3", url="https://picsum.photos/600/402", desc="Eiusmod enim sunt velit tempor ullamco dolore fugiat pariatur magna dolor excepteur do est.",num="12/14")
+      post-card(title="This is my title4", url="https://picsum.photos/600/401", desc="Eiusmod enim sunt velit tempor ullamco dolore fugiat pariatur magna dolor excepteur do est.",num="13/14")
 </template>
 
 <script>
