@@ -1,0 +1,19 @@
+.navbar-brand img
+    {
+        height: 60px;
+    }
+a {
+    color: black;
+ 
+}
+
+a.iconos{
+    padding: 10px;
+    vertical-align: center;
+    margin: 10px auto;
+    font-size: 1.5em;
+}
+
+.post img {
+    width: 100%;
+}
