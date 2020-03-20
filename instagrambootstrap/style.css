@@ -12,8 +12,26 @@ a.iconos{
     vertical-align: center;
     margin: 10px auto;
     font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
+a.iconos:hover{
+    background: #e1e1e1;
+}
+
+.post{
+    transition: all 0.2s ease;
+    box-shadow: 2px 2px 3px 1px #e9e8e8;
+}
 .post img {
     width: 100%;
+}
+
+.post .title {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    text-transform: uppercase;
+    padding: 10px;
 }
