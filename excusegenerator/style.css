@@ -14,5 +14,6 @@ p
     box-shadow: 3px 2px 4px #c1c1c1;
     background: darkorange;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 90px;
+    font-size: 3em;
 }
